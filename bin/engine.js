@@ -1,6 +1,6 @@
 /*
 
-(c)2021 Soumik mahato 
+(c)2021 Soumik mahato
 powered by Soumik Softwares
 git: https://github.com/soumiksoftwares/enginemega.git
 */
@@ -20,7 +20,7 @@ class bgm{
     constructor(src){
         this.src = src;
         //src for the background music
-        
+
     }
     play(){
         let a = document.createElement("audio");
@@ -81,7 +81,7 @@ class Library {
         const xmlhttp = new XMLHttpRequest();
 xmlhttp.onload = function() {
   const res = JSON.parse(this.responseText);
-  
+
 }
 xmlhttp.open("GET", "metadata.mega");
 xmlhttp.send();
@@ -104,25 +104,87 @@ this.bootstrap = Bootstrap;
 
 class importLibs extends Library {
 constructor(parse){
-if(!parse == 'undefined'){
 super();
-if(parse == 'three'){
-return "../engine/bin/libs/"+this.three;
-}
-if(parse == 'babylon'){
-    return "../engine/bin/libs/"+this.babylon;
-}
-if(parse == 'jquery'){
-    return "../engine/bin/libs/"+this.jquery;
-}
-if(parse == 'bootstrap'){
-    return "../engine/bin/libs/"+this.bootstrap;
-}
+if(parse.length >0){
+
+this.parse = parse;
 }
 else{
     return "attribute not defined";
 }
 }
+
+get(){
+    if(this.parse == 'three'){
+        return "../engine/bin/libs/"+this.three;
+        }
+        if(this.parse == 'babylon'){
+            return "../engine/bin/libs/"+this.babylon;
+        }
+        if(this.parse == 'jquery'){
+            return "../engine/bin/libs/"+this.jquery;
+        }
+        if(this.parse == 'bootstrap'){
+            return "../engine/bin/libs/"+this.bootstrap;
+        }
+}
+}
+
+class include {
+    constructor(parse){
+
+            this.parse = parse;
+
+    }
+
+    file(){
+        if(this.parse === "undefined"){
+            return "attribute is not defined";
+        }else{
+        if(this.parse == "three"){
+            return "../engine/bin/libs/three";
+        }
+        if(this.parse == "babylon"){
+            return "../engine/bin/libs/babylon";
+        }
+        if(this.parse == "jquery"){
+            return "../engine/bin/libs/jquery";
+        }
+        if(this.parse == "bootstrap"){
+            return "../engine/bin/libs/bootstrap";
+        }
+        if(this.parse == "css"){
+            return "../engine/bin/libs/bootstrap.css";
+        }
+        if(this.parse == "objloader"){
+            return "../engine/bin/libs/OBJLoader";
+        }
+        if(this.parse == "material"){
+            return "../engine/bin/libs/MTLLoader";
+        }
+        if(this.parse == "ammo"){
+            return "../engine/bin/libs/ammo";
+        }
+        if(this.parse == "physics"){
+            return "../engine/bin/libs/physi";
+        }
+        if(this.parse == "stats"){
+            return "../engine/bin/libs/stats";
+        }
+        if(this.parse == "pointer"){
+            return "../engine/bin/libs/PointerLockControls";
+        }
+        if(this.parse == "gui"){
+            return "../engine/bin/libs/dat.gui";
+        }
+        if(this.parse == "physics-worker"){
+            return "../engine/bin/libs/physijs_worker";
+        }
+        if(this.parse == "howler"){
+            return "../engine/bin/libs/howler";
+        }
+    }
+    }
 }
 /*
 File Structure
@@ -131,11 +193,11 @@ res/
     src/
         index.html
         index.js
-       
+
     engine/
     package.json
-        
+
 */
 
 //exports modules
-module.exports = {version, bgm, getInfo, cookie, Library, importLibs};
+module.exports = {version, bgm, getInfo, cookie, Library, importLibs, include};
