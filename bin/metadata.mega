@@ -1,0 +1,18 @@
+{
+    "name":"engineconfig",
+    "version":"1.0.0",
+    "plugins":{
+        "babylonjs":"",
+        "threejs":"",
+        "jquery":"",
+        "bootstrap":""
+    },
+    "about":{
+        "version":"1.0.0",
+        "author":"Soumik Mahato",
+        "github":{
+            "git":"true",
+            "repo":"https://github.com/soumiksoftwares/enginemega.git"
+        }
+    }
+}
