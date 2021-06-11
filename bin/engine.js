@@ -138,4 +138,4 @@ res/
 */
 
 //exports modules
-module.exports = {version, bgm, getInfo, cookie, Libary, importLibs};
+module.exports = {version, bgm, getInfo, cookie, Library, importLibs};
