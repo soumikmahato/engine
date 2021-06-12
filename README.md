@@ -51,4 +51,17 @@ cookie.get('cookie_name');
 
 ```
 
+## 2) include
+
+``` javascript
+const engine = require('../engine/bin/engine.js');
+
+// module include
+
+// let include three.js library
+const three = new engine.include("three").file();
+
+//just like this to include other library just replace three with libs name
+const example = new engine.include("example").file();
+```
 ### Read other docs at [website](https://engineme.ga/docs)
