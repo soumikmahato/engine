@@ -21,6 +21,32 @@
 
 ``` javascript
 const { version, bgm, getInfo, cookie, Libary, importLibs } = require('../engine/bin/engine.js');
+
+```
+### Import it on your project
+``` javascript
+
+const engine = require('../engine/bin/engine.js');
+
+```
+
+### inbuild modules of Megaengine
+
+``` javascript
+const engine = require('../engine/bin/engine.js');
+
+//cookie
+let cookie = new engine.cookie();
+
+//set a cookie
+
+cookie.set('name', 'value', 'daya to expire');
+
+//get a cookie
+cookie.get('cookie_name');
+
+//this class will return will the cookie value
+
 ```
 
 ### Read other docs at [website](https://engineme.ga/docs)
