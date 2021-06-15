@@ -187,7 +187,7 @@ class include {
     }
 }
 
-class LibraryVersion extends Library {
+class libraryVersion extends Library {
   constructor(prams) {
     super();
     if(prams == 'babylon'){
