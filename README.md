@@ -64,4 +64,16 @@ const three = new engine.include("three").file();
 //just like this to include other library just replace three with libs name
 const example = new engine.include("example").file();
 ```
+
+## 3)audio
+
+``` javascript
+const engine = require('../engine/bin/engine.js');
+
+//audio module
+
+const audio = new engine.bgm("https://example.com/example.mp3"); // src of the audio
+audio.play();
+
+```
 ### Read other docs at [website](https://engineme.ga/docs)
