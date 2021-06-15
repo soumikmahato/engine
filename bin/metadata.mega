@@ -1,14 +1,14 @@
 {
     "name":"engineconfig",
-    "version":"1.0.0",
+    "version":"1.0.2",
     "plugins":{
-        "babylonjs":"",
-        "threejs":"",
-        "jquery":"",
-        "bootstrap":""
+        "babylonjs":"4.2.0",
+        "threejs":"r129",
+        "jquery":"3.6.0",
+        "bootstrap":"4.0.0"
     },
     "about":{
-        "version":"1.0.0",
+        "version":"1.0.2",
         "author":"Soumik Mahato",
         "github":{
             "git":"true",
