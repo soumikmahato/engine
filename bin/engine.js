@@ -116,16 +116,16 @@ else{
 
 get(){
     if(this.parse == 'three'){
-        return "../engine/bin/libs/"+this.three;
+        return "../engine/bin/libs/three.js";
         }
         if(this.parse == 'babylon'){
-            return "../engine/bin/libs/"+this.babylon;
+            return "../engine/bin/libs/babylon.js";
         }
         if(this.parse == 'jquery'){
-            return "../engine/bin/libs/"+this.jquery;
+            return "../engine/bin/libs/jquery.js";
         }
         if(this.parse == 'bootstrap'){
-            return "../engine/bin/libs/"+this.bootstrap;
+            return "../engine/bin/libs/bootstrap.js";
         }
 }
 }
@@ -185,6 +185,24 @@ class include {
         }
     }
     }
+}
+
+class LibraryVersion extends Library {
+  constructor(prams) {
+    super();
+    if(prams == 'babylon'){
+      return this.babylon;
+    }
+    if(prams == 'three'){
+      return this.three;
+    }
+    if(prams == 'jquery'){
+      return this.jquery;
+    }
+    if(prams == 'bootstrap'){
+      return this.bootstrap;
+    }
+  }
 }
 /*
 File Structure
