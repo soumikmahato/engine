@@ -76,4 +76,17 @@ const audio = new engine.bgm("https://example.com/example.mp3"); // src of the a
 audio.play();
 
 ```
+
+## 4)libraryVersion
+
+``` javascript
+
+const engine = require('../engine/bin/engine.js');
+
+//library module
+
+const version = new engine.libraryVersion("three");//library name
+
+document.write(version);
+```
 ### Read other docs at [website](https://engineme.ga/docs)
