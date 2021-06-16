@@ -8,7 +8,7 @@
         "bootstrap":"4.0.0"
     },
     "about":{
-        "version":"1.0.3",
+        "version":"1.0.4-alpha",
         "author":"Soumik Mahato",
         "github":{
             "git":"true",
