@@ -15,7 +15,11 @@
 
 </p>
 
-## Change log
+## Version 1.0.4-alpha release
+
+#### Note that this version is not stable it is pre release for testing
+
+## Change logs
 
 ### What's new
 #### New module libraryVersion bug fixed
