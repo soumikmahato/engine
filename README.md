@@ -79,6 +79,8 @@ audio.play();
 
 ## 4)libraryVersion
 
+#### Note that this module is only work on http
+
 ``` javascript
 
 const engine = require('../engine/bin/engine.js');
