@@ -6,7 +6,7 @@ git: https://github.com/soumiksoftwares/enginemega.git
 */
 class version {
 constructor(){
-    return "1.0.2";
+    return "1.0.3";
 }
 }
 class getInfo{
