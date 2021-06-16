@@ -3,6 +3,7 @@
 (c)2021 Soumik mahato
 powered by Soumik Softwares
 git: https://github.com/soumiksoftwares/enginemega.git
+License: MIT
 */
 class version {
 constructor(){
