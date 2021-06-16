@@ -22,9 +22,10 @@
 ## Change logs
 
 ### What's new
-#### New module libraryVersion bug fixed
-#### Other bug fixed
-#### Code review
-#### Version log changed
-#### .nomedia file updated
-### Version.log file added in bin/etc/Logs directory
+
+#### 1)New module libraryVersion bug fixed
+#### 2)Other bug fixed
+#### 3)Code review
+#### 4)Version log changed
+#### 5).nomedia file updated
+#### 6)Version.log file added in bin/etc/Logs directory
