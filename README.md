@@ -87,6 +87,6 @@ const engine = require('../engine/bin/engine.js');
 
 const version = new engine.libraryVersion("three");//library name
 
-document.write(version);
+console.log(version);
 ```
 ### Read other docs at [website](https://engineme.ga/docs)
