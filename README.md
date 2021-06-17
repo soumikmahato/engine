@@ -93,4 +93,7 @@ const version = new engine.libraryVersion("three");//library name
 console.log(version);
 
 ```
+
+#### Version 1.0.4
+
 ### Read other docs at [website](https://engineme.ga/docs)
