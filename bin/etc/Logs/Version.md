@@ -15,7 +15,7 @@
 
 </p>
 
-## Version 1.0.4 release
+## Version 1.0.5-alpha release
 
 #### Note that this version is not stable it is pre release for testing
 
@@ -23,7 +23,7 @@
 
 ### What's new
 
-#### 1)New module libraryVersion bug fixed
+#### 1)Issue Fixed
 #### 2)Other bug fixed
 #### 3)Code review
 #### 4)Version log changed
