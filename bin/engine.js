@@ -7,7 +7,7 @@ License: MIT
 */
 class version {
 constructor(){
-    return "1.0.4";
+    return "1.0.5-alpha";
 }
 }
 class getInfo{
