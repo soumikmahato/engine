@@ -5,4 +5,4 @@ License - MIT
 (c)2021 Soumik soumiksoftwares
 @author Soumik Mahato
 
-Version 1.0.5-alpha2
+Version 1.0.5-beta
