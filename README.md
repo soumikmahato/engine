@@ -94,6 +94,6 @@ console.log(version);
 
 ```
 
-#### Version 1.0.5-alpha
+#### Version 1.0.5-beta
 
 ### Read other docs at [website](https://engineme.ga/docs)
