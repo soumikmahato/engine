@@ -13,3 +13,5 @@ const engine = require('../engine/bin/engine.js');
 let cookie = new engine.cookie;
 cookie.set("name", "value", "exdays");
 ```
+
+## version v1.0.5 beta2
