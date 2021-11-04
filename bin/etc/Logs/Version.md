@@ -15,7 +15,7 @@
 
 </p>
 
-## Version 1.0.5-alpha release
+## Version 1.0.5-beta2 release
 
 #### Note that this version is not stable it is pre release for testing
 
