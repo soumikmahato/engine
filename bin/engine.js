@@ -13,7 +13,7 @@ constructor(){
 class getInfo{
     constructor(gamename){
         this.gamename = gamename;
-        console.log(`${gamename} is powered by engine mega. (c)2021 by Soumik Mahato. Libary used babylon.js and three.js`);
+        console.log(`${gamename} is powered by engine mega. (c)2021 by Soumik Mahato. Libaries babylon.js and three.js are used`);
 
     }
 }
