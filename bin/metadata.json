@@ -1,6 +1,6 @@
 {
     "name":"engineconfig",
-    "version":"1.0.5-beta",
+    "version":"1.0.5-beta2",
     "plugins":{
         "babylonjs":"4.2.0",
         "threejs":"r129",
